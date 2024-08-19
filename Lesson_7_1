@@ -1,0 +1,12 @@
+public class Lesson_7_1 {
+    public static void main (String [] args){
+        String str1 = ("Первая");
+        String str2 = ("Вторая");
+        String str4 = ("Четвертая");
+        String str5 = ("Пятая");
+        method1(str1, str2, str4, str5);
+    }
+    static void method1 (String str1, String str2, String str4, String str5) {
+        System.out.println(str1 +" , "+ str2 +" , "+ str4 +" , "+ str5);
+    }
+}
